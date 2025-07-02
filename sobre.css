@@ -28,6 +28,26 @@ figure {
 }
 
 figcaption {
-    color: lightgrey;
     margin-top: 10px;
+}
+
+figure.matriz figcaption,
+figure.familia figcaption {
+    color: black;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+}
+
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
 }
