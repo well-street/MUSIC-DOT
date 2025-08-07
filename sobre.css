@@ -2,19 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 940px;
+    margin: 0 auto;
 }
 
-h1 {
+.titulo-principal {
     color: #3D3D3D;
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2 {
+h2:not(.titulo-principal) {
     border-bottom: solid;
 }
 
@@ -49,5 +52,5 @@ figure.matriz {
 figure.familia {
     width: 275px;
     float: right;
-    margin: 0 0 20px 20px;
+    margin: 30px 0 20px 20px;
 }
