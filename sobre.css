@@ -14,11 +14,15 @@ body {
 .titulo-principal {
     color: #3D3D3D;
     background-color: #E1EDF2;
-    padding: 10px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 15px;
 }
 
 h2:not(.titulo-principal) {
     border-bottom: solid;
+    font-weight: bold;
 }
 
 figure {
@@ -53,4 +57,49 @@ figure.familia {
     width: 275px;
     float: right;
     margin: 30px 0 20px 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+section article {
+    width: 48%;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: 3px;
+}
+
+h3 small {
+    font-weight: normal;
+    color: #555;
+    font-size: 0.85em;
+}
+
+address {
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 3px;
+    font-size: 0.95em;
+}
+
+p {
+    line-height: 1.4;
+    margin: 3px 0;
+    font-size: 0.95em;
+}
+
+a {
+    color: #0645AD;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+a:hover {
+    text-decoration: underline;
 }
